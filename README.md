@@ -1,36 +1,41 @@
-# Analyzing-Customer-Segments-Python
+# Analyzing Customer Segments with Python
 
 ## Background
-You are a data analyst at a crowdfunding site. For the next quarter, your company will be running a marketing campaign.
-The marketing manager wants to target those segments that have donated the most in the past year. 
-She turned to you to help her with her upcoming meeting with the CEO.
 
-## Your challenge
-Create a single visualization that the marketing manager can use to explore the data. Include:
+In this analysis, we'll be working as a data analyst at a crowdfunding site. Our company is preparing for a marketing campaign in the next quarter, and the marketing manager is keen on targeting segments that have made significant donations in the past year. The task was to help the marketing manager prepare for an upcoming meeting with the CEO by creating a single visualization that addresses key questions about customer segments.
 
-What are the top three categories in terms of total donations?
-What device type has historically provided the most contributions?
-What age bracket should the campaign target?
+## Dataset Overview
 
-# Report 
-## 1. What are the top three categories in terms of total donations? 
+The dataset contains information about customer contributions to different categories on the crowdfunding platform. It includes details such as the category, device type, age, gender, and the amount of donation.
 
-In the dataframe the three most common categories entries are Sports with 4179, Games - 4173 and Technology - 4144, but in terms of total donations the top three are:
-- **Games** with 16.54k €
-- **Sports** with 16.35k €
-- **Technology** with 16.27k €
+## Visualization and Insights
 
-In both categories Enviroment and Fashion are close in the gap (Enviroment with 4089 and 16.23k, Fashion 4073 and 15.99k) 
+### 1. Top Three Categories in Terms of Total Donations
 
-## 2. What device type has historically provided the most contributions? 
+The top three categories in terms of total donations are:
 
-For the device type the user count from iOS is 13459 while android is 7199, being 0.65% from iOS and 35% from android. For android the total amount of euros donated is 283.54 k, and for iOS is 530.52k, almost the double for iOS than android. Divided by gender the amount of each part is almost equal, but appears a slightly difference about females and males with iOS and android devices respectively:
-- android ( M - 132.6k € || F - 130.8k € )
-- iOS     ( F -  247.9k € || M - 244.9k €)
-The device with most contributions: **iOS**
+1. **Games**: €16.54k
+2. **Sports**: €16.35k
+3. **Technology**: €16.27k
 
-## 3. What age bracket should the campaign target?
+While the most common categories are Sports, Games, and Technology in terms of entries, the top three in terms of total donations are Games, Sports, and Technology. Categories like Environment and Fashion are also significant in terms of total donations.
 
-Looking about the age and gender, most of the total amount of donations are from an age bracket of [18-24], the total count for this age bracket is 10439, and if we look to the other gaps this is almost 3x. Meaning this is could be a campaing target, but we should not leave out the gaps, this because the ratio of donations is almost the same (aprox. 39 euros per user), and we could say that even if we use the age bracket of 18-24 we could influence in a certain way the range of 25-34.
+### 2. Device Type with the Most Contributions
 
-Recomendation as age bracket for campaign target: **[18-24]**
+Historically, iOS devices have contributed significantly more than Android devices. Despite Android having 35% of the user count compared to iOS, the total amount donated by iOS users is nearly double that of Android users. The breakdown of contributions by gender and device type shows that iOS is slightly favored by females, while Android is slightly favored by males. The device type with the most contributions is **iOS**.
+
+### 3. Target Age Bracket for the Campaign
+
+Considering age and gender, the age bracket [18-24] stands out with the highest total amount of donations. This age bracket has a count of 10,439 users and a substantial total donation amount. While [25-34] and other age brackets are also contributors, the [18-24] age bracket is almost three times as significant in terms of total donations. A recommendation for the campaign's target age bracket would be **[18-24]**.
+
+## Contribution
+
+Feel free to contribute to this project by suggesting improvements, additional analyses, or enhanced visualizations. Open an issue or submit a pull request to share your ideas.
+
+## License
+
+DataCamp competition dataset 
+
+---
+
+Through the "Analyzing Customer Segments" project, we aim to provide valuable insights into customer behavior and preferences. By targeting the right segments, the marketing campaign can have a more significant impact and drive higher contributions. Thank you for contributing to this effort to optimize the marketing strategy! 🎯📈🤝
